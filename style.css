@@ -83,6 +83,16 @@ section {
   height: 200px;
 }
 
+.ruck-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ruck-project-image {
+  height: 200px;
+  width: 100px;
+}
+
 .contact {
   display: none;
   position: absolute;
