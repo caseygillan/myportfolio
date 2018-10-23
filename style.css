@@ -14,6 +14,18 @@ body {
   font-size: 20px;
 }
 
+.home-link {
+  cursor: pointer;
+}
+
+.portfolio-link {
+  cursor: pointer;
+}
+
+.contact-link {
+  cursor: pointer;
+}
+
 section {
   position: relative;
   padding: 60px 5%;
@@ -47,8 +59,8 @@ section {
 .portfolio {
   display: none;
   width: 100%;
-  font-size: 15px;
-  color: rgb(95, 95, 95);
+  font-size: 20px;
+  color: #ffffff;
   height: 90vh;
   overflow: auto;
 }
@@ -57,12 +69,17 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
+}
+
+.project-description {
+  margin-top: 20px;
 }
 
 .project-link {
   text-decoration: none;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .ruck-log {
@@ -81,6 +98,10 @@ section {
 
 .project-image {
   height: 200px;
+}
+
+.tech {
+  margin-top: 10px;
 }
 
 .ruck-images {
@@ -104,6 +125,11 @@ section {
   width: 90%;
   max-width: 450px;
   font-size: 25px;
+}
+
+.contact-links {
+  text-align: center;
+  margin: 20px;
 }
 
 .contact-icon {
