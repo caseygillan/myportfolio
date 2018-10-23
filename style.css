@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffc300;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+section {
+  position: relative;
+  padding: 60px 5%;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  width: 90%;
+  max-width: 450px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.bio {
+  font-size: 25px;
+  color: rgb(95, 95, 95);
+}
+
+.portfolio {
+  display: none;
+  width: 100%;
+  font-size: 15px;
+  color: rgb(95, 95, 95);
+  height: 90vh;
+  overflow: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.ruck-log {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px;
+}
+
+.phrasenado {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px;
+}
+
+.project-image {
+  height: 200px;
+}
+
+.contact {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 90%;
+  max-width: 450px;
+  font-size: 25px;
+}
+
+.contact-icon {
+  width: 40px;
+  margin: 10px;
+}
