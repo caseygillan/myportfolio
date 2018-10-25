@@ -96,6 +96,13 @@ section {
   margin: 30px;
 }
 
+.runyasa {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 30px;
+}
+
 .project-image {
   height: 200px;
 }
