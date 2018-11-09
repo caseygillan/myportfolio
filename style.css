@@ -85,28 +85,28 @@ section {
 .ruck-log {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   margin: 30px;
 }
 
 .phrasenado {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   margin: 30px;
 }
 
 .runyasa {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   margin: 30px;
 }
 
 .virtual-assistant {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 350px;
   margin: 30px;
 }
 
