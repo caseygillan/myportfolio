@@ -82,6 +82,13 @@ section {
   font-size: 45px;
 }
 
+.half-full-weather {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 30px;
+}
+
 .ruck-log {
   display: flex;
   flex-direction: column;
@@ -116,6 +123,16 @@ section {
 
 .tech {
   margin-top: 10px;
+}
+
+.hfw-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hfw-project-image {
+  height: 200px;
+  width: 100px;
 }
 
 .ruck-images {
